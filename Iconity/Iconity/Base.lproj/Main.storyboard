@@ -58,6 +58,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="rxC-Fx-LOz">
+                                <rect key="frame" x="16" y="107" width="288" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Se connecter avec Facebook">
+                                    <color key="titleColor" red="0.90588235289999997" green="0.37647058820000001" blue="0.3411764706" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.90588235289999997" green="0.37647058820000001" blue="0.3411764706" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="  Adresse email" minimumFontSize="17" id="PZi-iC-U7E">
                                 <rect key="frame" x="16" y="211" width="288" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
@@ -120,15 +129,10 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="rxC-Fx-LOz">
-                                <rect key="frame" x="16" y="107" width="288" height="50"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ICONES-05-2.png" id="kNw-l7-vCG">
+                                <rect key="frame" x="28" y="94" width="70" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" title="Se connecter avec Facebook">
-                                    <color key="titleColor" red="0.90588235289999997" green="0.37647058820000001" blue="0.3411764706" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" red="0.90588235289999997" green="0.37647058820000001" blue="0.3411764706" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -203,6 +207,32 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dtj-sX-eFn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="915" y="759"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7xS-oE-TsD">
+            <objects>
+                <viewController id="Isg-eQ-GSc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="J7a-bJ-nZg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tabBar contentMode="scaleToFill" id="7lj-ea-w1s">
+                                <rect key="frame" x="0.0" y="519" width="320" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <items>
+                                    <tabBarItem id="TQw-GC-irm"/>
+                                    <tabBarItem systemItem="topRated" id="E8r-xi-MZ7"/>
+                                    <tabBarItem title="" selectedImage="ICONES-08.jpg" id="nN3-rl-aWF"/>
+                                </items>
+                            </tabBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HRc-C9-PNk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1313" y="761"/>
         </scene>
         <!--Title-->
         <scene sceneID="DSX-Ap-Tf6">
@@ -312,6 +342,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="ICONES-05-2.png" width="521" height="521"/>
+        <image name="ICONES-08.jpg" width="1042" height="1042"/>
         <image name="P1-ee01.jpg" width="595" height="1058"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
