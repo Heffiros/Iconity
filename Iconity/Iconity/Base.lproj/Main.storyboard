@@ -190,7 +190,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="b8c-2L-7ue" kind="modal" id="JN6-NX-MIw"/>
+                                    <segue destination="bCa-mB-80G" kind="modal" id="ifz-pr-8f5"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mot de passe oublié ? " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="meu-3g-B3b">
@@ -211,38 +211,38 @@
             </objects>
             <point key="canvasLocation" x="915" y="759"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="geE-ee-g2R">
+        <!--Search View Controller-->
+        <scene sceneID="IAr-jp-Bpe">
             <objects>
-                <viewController id="b8c-2L-7ue" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="fEi-uN-YBe">
+                <viewController id="bCa-mB-80G" customClass="SearchViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jxn-c9-0Bw">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tabBar contentMode="scaleToFill" id="W7P-Ku-MSn">
+                            <tabBar contentMode="scaleToFill" id="nu7-pQ-S0y">
                                 <rect key="frame" x="0.0" y="519" width="320" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <items>
-                                    <tabBarItem title="Découvrir" image="ICONES-08.png" id="tzW-kX-0Yj"/>
-                                    <tabBarItem title="Wishlist" image="ICONES-07.png" id="AHd-0C-3pF"/>
-                                    <tabBarItem title="Profil" image="ICONES-10.png" id="s8p-HV-7KB"/>
+                                    <tabBarItem title="Découvrir" image="ICONES-08.png" id="iKz-DD-hL4"/>
+                                    <tabBarItem title="Wishlist" image="ICONES-07.png" id="6Fl-zJ-PnQ"/>
+                                    <tabBarItem title="Profil" image="ICONES-10.png" id="7Ge-Ki-aAZ"/>
                                 </items>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="barTintColor" red="0.90588235289999997" green="0.37647058820000001" blue="0.3411764706" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="selectedImageTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </tabBar>
-                            <navigationBar contentMode="scaleToFill" id="xvc-LG-hzC">
+                            <navigationBar contentMode="scaleToFill" id="dRt-se-D4z">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="barTintColor" red="0.90588235289999997" green="0.37647058820000001" blue="0.3411764706" alpha="1" colorSpace="calibratedRGB"/>
                                 <textAttributes key="titleTextAttributes">
                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </textAttributes>
                                 <items>
-                                    <navigationItem title="RECHERCHE" id="Ebt-fc-1gT">
-                                        <barButtonItem key="leftBarButtonItem" style="plain" id="pEW-Oo-vg7">
-                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0r0-Pn-eSa">
+                                    <navigationItem title="RECHERCHE" id="qte-mU-HKZ">
+                                        <barButtonItem key="leftBarButtonItem" style="plain" id="kjX-I5-Ayq">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="sb8-ej-Rru">
                                                 <rect key="frame" x="-23" y="-15" width="71" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" backgroundImage="ICONES-0g7.png">
@@ -253,13 +253,55 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8uq-TP-v18">
+                                <rect key="frame" x="16" y="172" width="288" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="Type">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="AVP-Dl-COt">
+                                <rect key="frame" x="16" y="230" width="288" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="Taille">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="kNv-dq-2id">
+                                <rect key="frame" x="16" y="288" width="288" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="Couleur">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="wIE-dO-ZYY">
+                                <rect key="frame" x="16" y="346" width="288" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="Date">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="SearchColor" destination="kNv-dq-2id" id="62d-Aj-vPx"/>
+                        <outlet property="SearchDate" destination="wIE-dO-ZYY" id="8oe-m4-0fG"/>
+                        <outlet property="SearchTaille" destination="AVP-Dl-COt" id="P3T-pn-Pl6"/>
+                        <outlet property="SearchType" destination="8uq-TP-v18" id="W6f-Ny-DJY"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="xLb-Qp-ils" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zJG-Co-hqI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1332" y="759"/>
+            <point key="canvasLocation" x="1393" y="761"/>
         </scene>
         <!--Title-->
         <scene sceneID="DSX-Ap-Tf6">
