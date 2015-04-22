@@ -13,4 +13,6 @@
 @property (strong, nonatomic) NSDictionary *data;
 - (void) setData:(NSDictionary*)dataFromInscription;
 
+@property (weak, nonatomic) IBOutlet UIButton *Validate;
+
 @end

@@ -16,7 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"%@", _data);
+    
+    [self.Validate.layer setBorderWidth:2.0];
+    [self.Validate.layer setBorderColor:[[UIColor colorWithRed:231.0/255.0 green:96.0/255.0 blue:87.0/255.0 alpha:1.0] CGColor]];
     // Do any additional setup after loading the view.
 }
 
@@ -30,6 +32,8 @@
     //NSLog(@"sdpfkdsodkopfdskfds");
     _data = dataFromInscription;
 }
+
+
 /*
 #pragma mark - Navigation
 
