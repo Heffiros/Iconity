@@ -11,6 +11,8 @@
 @interface ViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UIButton *sinscrire;
 @property (strong, nonatomic) IBOutlet UIButton *seconnecter;
+@property (strong, nonatomic) IBOutlet UIButton *FacebookConnect;
+@property (strong, nonatomic) IBOutlet UIButton *Connect;
 
 
 @end
