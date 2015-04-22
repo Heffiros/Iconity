@@ -190,7 +190,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Isg-eQ-GSc" kind="modal" id="hHM-yj-DRy"/>
+                                    <segue destination="b8c-2L-7ue" kind="modal" id="JN6-NX-MIw"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mot de passe oublié ? " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="meu-3g-B3b">
@@ -212,32 +212,32 @@
             <point key="canvasLocation" x="915" y="759"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="7xS-oE-TsD">
+        <scene sceneID="geE-ee-g2R">
             <objects>
-                <viewController id="Isg-eQ-GSc" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="J7a-bJ-nZg">
+                <viewController id="b8c-2L-7ue" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fEi-uN-YBe">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tabBar contentMode="scaleToFill" itemPositioning="centered" id="7lj-ea-w1s">
+                            <tabBar contentMode="scaleToFill" id="W7P-Ku-MSn">
                                 <rect key="frame" x="0.0" y="519" width="320" height="49"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <items>
-                                    <tabBarItem systemItem="search" id="TQw-GC-irm"/>
-                                    <tabBarItem systemItem="more" id="E8r-xi-MZ7"/>
-                                    <tabBarItem title="" systemItem="favorites" id="nN3-rl-aWF"/>
+                                    <tabBarItem title="Découvrir" image="ICONES-08.png" id="tzW-kX-0Yj"/>
+                                    <tabBarItem title="Wishlist" image="ICONES-07.png" id="AHd-0C-3pF"/>
+                                    <tabBarItem title="Profil" image="ICONES-10.png" id="s8p-HV-7KB"/>
                                 </items>
                                 <color key="barTintColor" red="0.90588235289999997" green="0.37647058820000001" blue="0.3411764706" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="selectedImageTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="selectedImageTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </tabBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="HRc-C9-PNk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xLb-Qp-ils" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1313" y="761"/>
+            <point key="canvasLocation" x="1325" y="759"/>
         </scene>
         <!--Title-->
         <scene sceneID="DSX-Ap-Tf6">
@@ -355,6 +355,9 @@
     </scenes>
     <resources>
         <image name="ICONES-05-2.png" width="521" height="521"/>
+        <image name="ICONES-07.png" width="50" height="50"/>
+        <image name="ICONES-08.png" width="50" height="50"/>
+        <image name="ICONES-10.png" width="50" height="50"/>
         <image name="P1-ee01.jpg" width="595" height="1058"/>
         <image name="icones-05-2_1024.png" width="1024" height="1024"/>
     </resources>
