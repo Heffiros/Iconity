@@ -17,6 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [self.sinscrire.layer setBorderWidth:2.0];
+    [self.sinscrire.layer setBorderColor:[[UIColor whiteColor] CGColor]];
+    [self.seconnecter.layer setBorderWidth:2.0];
+    [self.seconnecter.layer setBorderColor:[[UIColor whiteColor] CGColor]];
 }
 
 - (void)didReceiveMemoryWarning {
