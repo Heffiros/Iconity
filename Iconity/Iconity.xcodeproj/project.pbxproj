@@ -15,6 +15,7 @@
 		22BDD9741AE784EC002FBDA3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22BDD9731AE784EC002FBDA3 /* Images.xcassets */; };
 		22BDD9771AE784EC002FBDA3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22BDD9751AE784EC002FBDA3 /* LaunchScreen.xib */; };
 		22BDD9831AE784ED002FBDA3 /* IconityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BDD9821AE784ED002FBDA3 /* IconityTests.m */; };
+		22BDD9931AE7968B002FBDA3 /* InscriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BDD9921AE7968B002FBDA3 /* InscriptionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		22BDD97C1AE784ED002FBDA3 /* IconityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IconityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22BDD9811AE784ED002FBDA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22BDD9821AE784ED002FBDA3 /* IconityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IconityTests.m; sourceTree = "<group>"; };
+		22BDD9911AE7968B002FBDA3 /* InscriptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InscriptionViewController.h; sourceTree = "<group>"; };
+		22BDD9921AE7968B002FBDA3 /* InscriptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InscriptionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 				22BDD9731AE784EC002FBDA3 /* Images.xcassets */,
 				22BDD9751AE784EC002FBDA3 /* LaunchScreen.xib */,
 				22BDD9661AE784EC002FBDA3 /* Supporting Files */,
+				22BDD9911AE7968B002FBDA3 /* InscriptionViewController.h */,
+				22BDD9921AE7968B002FBDA3 /* InscriptionViewController.m */,
 			);
 			path = Iconity;
 			sourceTree = "<group>";
@@ -226,6 +231,7 @@
 				22BDD96F1AE784EC002FBDA3 /* ViewController.m in Sources */,
 				22BDD96C1AE784EC002FBDA3 /* AppDelegate.m in Sources */,
 				22BDD9691AE784EC002FBDA3 /* main.m in Sources */,
+				22BDD9931AE7968B002FBDA3 /* InscriptionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
