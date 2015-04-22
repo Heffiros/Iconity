@@ -21,13 +21,7 @@
     [self.sinscrire.layer setBorderColor:[[UIColor whiteColor] CGColor]];
     [self.seconnecter.layer setBorderWidth:2.0];
     [self.seconnecter.layer setBorderColor:[[UIColor whiteColor] CGColor]];
-    [self.FacebookConnect.layer setBorderWidth:2.0];
-    [self.FacebookConnect.layer setBorderColor:[[UIColor colorWithRed:231.0/255.0 green:96.0/255.0 blue:87.0/255.0 alpha:1.0] CGColor]];
-    [self.Connect.layer setBorderWidth:2.0];
-    [self.Connect.layer setBorderColor:[[UIColor colorWithRed:231.0/255.0 green:96.0/255.0 blue:87.0/255.0 alpha:1.0] CGColor]];
-    [self.Recuperer.layer setBorderWidth:2.0];
-    [self.Recuperer.layer setBorderColor:[[UIColor colorWithRed:231.0/255.0 green:96.0/255.0 blue:87.0/255.0 alpha:1.0] CGColor]];
-}
+    }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

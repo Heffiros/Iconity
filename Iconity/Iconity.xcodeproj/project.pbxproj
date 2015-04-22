@@ -10,6 +10,8 @@
 		20F462371AE786EF00D41D35 /* P1-ee01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20F462361AE786EF00D41D35 /* P1-ee01.jpg */; };
 		20F462421AE7A63F00D41D35 /* NewsCycle-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20F462411AE7A63F00D41D35 /* NewsCycle-Bold.ttf */; };
 		20F462441AE7A65100D41D35 /* NewsCycle-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20F462431AE7A65100D41D35 /* NewsCycle-Regular.ttf */; };
+		20F462461AE7C44500D41D35 /* ConnexionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F462451AE7C44500D41D35 /* ConnexionViewController.m */; };
+		20F462491AE7CA2700D41D35 /* RecuperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F462481AE7CA2700D41D35 /* RecuperationViewController.m */; };
 		22BDD9691AE784EC002FBDA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BDD9681AE784EC002FBDA3 /* main.m */; };
 		22BDD96C1AE784EC002FBDA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BDD96B1AE784EC002FBDA3 /* AppDelegate.m */; };
 		22BDD96F1AE784EC002FBDA3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BDD96E1AE784EC002FBDA3 /* ViewController.m */; };
@@ -34,6 +36,10 @@
 		20F462361AE786EF00D41D35 /* P1-ee01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "P1-ee01.jpg"; sourceTree = "<group>"; };
 		20F462411AE7A63F00D41D35 /* NewsCycle-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NewsCycle-Bold.ttf"; sourceTree = "<group>"; };
 		20F462431AE7A65100D41D35 /* NewsCycle-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NewsCycle-Regular.ttf"; sourceTree = "<group>"; };
+		20F462451AE7C44500D41D35 /* ConnexionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnexionViewController.m; sourceTree = "<group>"; };
+		20F462471AE7C46C00D41D35 /* ConnexionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnexionViewController.h; sourceTree = "<group>"; };
+		20F462481AE7CA2700D41D35 /* RecuperationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecuperationViewController.m; sourceTree = "<group>"; };
+		20F4624A1AE7CA3600D41D35 /* RecuperationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecuperationViewController.h; sourceTree = "<group>"; };
 		22BDD9631AE784EC002FBDA3 /* Iconity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Iconity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22BDD9671AE784EC002FBDA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22BDD9681AE784EC002FBDA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -107,11 +113,15 @@
 				22BDD96D1AE784EC002FBDA3 /* ViewController.h */,
 				22BDD96E1AE784EC002FBDA3 /* ViewController.m */,
 				22BDD9701AE784EC002FBDA3 /* Main.storyboard */,
+				20F462481AE7CA2700D41D35 /* RecuperationViewController.m */,
+				20F4624A1AE7CA3600D41D35 /* RecuperationViewController.h */,
 				22BDD9731AE784EC002FBDA3 /* Images.xcassets */,
 				22BDD9751AE784EC002FBDA3 /* LaunchScreen.xib */,
 				22BDD9661AE784EC002FBDA3 /* Supporting Files */,
 				22BDD9911AE7968B002FBDA3 /* InscriptionViewController.h */,
 				22BDD9921AE7968B002FBDA3 /* InscriptionViewController.m */,
+				20F462451AE7C44500D41D35 /* ConnexionViewController.m */,
+				20F462471AE7C46C00D41D35 /* ConnexionViewController.h */,
 			);
 			path = Iconity;
 			sourceTree = "<group>";
@@ -246,6 +256,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				22BDD96F1AE784EC002FBDA3 /* ViewController.m in Sources */,
+				20F462491AE7CA2700D41D35 /* RecuperationViewController.m in Sources */,
+				20F462461AE7C44500D41D35 /* ConnexionViewController.m in Sources */,
 				22BDD96C1AE784EC002FBDA3 /* AppDelegate.m in Sources */,
 				22BDD9691AE784EC002FBDA3 /* main.m in Sources */,
 				22BDD9931AE7968B002FBDA3 /* InscriptionViewController.m in Sources */,

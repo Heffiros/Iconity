@@ -18,6 +18,10 @@
     [super viewDidLoad];
     [self affBorderColor];
     // Do any additional setup after loading the view.
+    [self.FacebookConnect.layer setBorderWidth:2.0];
+    [self.FacebookConnect.layer setBorderColor:[[UIColor colorWithRed:231.0/255.0 green:96.0/255.0 blue:87.0/255.0 alpha:1.0] CGColor]];
+    [self.suivant.layer setBorderWidth:2.0];
+    [self.suivant.layer setBorderColor:[[UIColor colorWithRed:231.0/255.0 green:96.0/255.0 blue:87.0/255.0 alpha:1.0] CGColor]];
 }
 
 - (void)didReceiveMemoryWarning {
