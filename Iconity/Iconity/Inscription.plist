@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>prenom</key>
-	<string></string>
+	<string>nil</string>
 	<key>nom</key>
 	<string></string>
 	<key>mail</key>

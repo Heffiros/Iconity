@@ -13,6 +13,7 @@
 @end
 
 @implementation InscriptionViewController
+@synthesize data;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -30,12 +31,15 @@
 
 
 - (IBAction)NextForm:(id)sender {
-    NSString *prenom = self.prenom.text;
-    NSLog(@"%@", prenom);
+    
+    self.data = @{
+                          @"prenom" : self.prenom.text,
+                          @"nom" : self.nom.text,
+                          @"mail" : self.mail.text,
+                          @"mdp" : self.password.text,
+    };
 
 }
-
-
 
 
 /*

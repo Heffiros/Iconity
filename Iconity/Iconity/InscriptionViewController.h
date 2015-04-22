@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PlistModel.h"
 
-@interface InscriptionViewController : UIViewController
+@interface InscriptionViewController : UIViewController {
+    NSDictionary *data;
+}
 
+@property (strong, nonatomic) NSDictionary *data;
 @property (strong, nonatomic) IBOutlet UIButton *FacebookConnect;
 @property (weak, nonatomic) IBOutlet UITextField *prenom;
 @property (weak, nonatomic) IBOutlet UITextField *nom;
