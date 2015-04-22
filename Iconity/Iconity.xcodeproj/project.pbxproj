@@ -15,6 +15,10 @@
 		20F699DA1AE7E14F003A6F0F /* ICONES-08.png in Resources */ = {isa = PBXBuildFile; fileRef = 20F699D71AE7E14F003A6F0F /* ICONES-08.png */; };
 		20F699DC1AE7E14F003A6F0F /* ICONES-10.png in Resources */ = {isa = PBXBuildFile; fileRef = 20F699D91AE7E14F003A6F0F /* ICONES-10.png */; };
 		20F699DE1AE7E4A4003A6F0F /* ICONES-07.png in Resources */ = {isa = PBXBuildFile; fileRef = 20F699DD1AE7E4A4003A6F0F /* ICONES-07.png */; };
+		20F699E31AE7F358003A6F0F /* ICONES-0g7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20F699E21AE7F358003A6F0F /* ICONES-0g7.jpg */; };
+		20F699E51AE7F447003A6F0F /* ICONES-05d-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 20F699E41AE7F447003A6F0F /* ICONES-05d-2.png */; };
+		20F699E71AE7F536003A6F0F /* ICONES-0g7.png in Resources */ = {isa = PBXBuildFile; fileRef = 20F699E61AE7F536003A6F0F /* ICONES-0g7.png */; };
+		20F699EA1AE7FFE1003A6F0F /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F699E91AE7FFE1003A6F0F /* SearchViewController.m */; };
 		22BDD9691AE784EC002FBDA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BDD9681AE784EC002FBDA3 /* main.m */; };
 		22BDD96C1AE784EC002FBDA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BDD96B1AE784EC002FBDA3 /* AppDelegate.m */; };
 		22BDD96F1AE784EC002FBDA3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BDD96E1AE784EC002FBDA3 /* ViewController.m */; };
@@ -50,6 +54,11 @@
 		20F699D71AE7E14F003A6F0F /* ICONES-08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ICONES-08.png"; sourceTree = "<group>"; };
 		20F699D91AE7E14F003A6F0F /* ICONES-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ICONES-10.png"; sourceTree = "<group>"; };
 		20F699DD1AE7E4A4003A6F0F /* ICONES-07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ICONES-07.png"; sourceTree = "<group>"; };
+		20F699E21AE7F358003A6F0F /* ICONES-0g7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ICONES-0g7.jpg"; sourceTree = "<group>"; };
+		20F699E41AE7F447003A6F0F /* ICONES-05d-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ICONES-05d-2.png"; sourceTree = "<group>"; };
+		20F699E61AE7F536003A6F0F /* ICONES-0g7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ICONES-0g7.png"; sourceTree = "<group>"; };
+		20F699E81AE7FFE1003A6F0F /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		20F699E91AE7FFE1003A6F0F /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		22BDD9631AE784EC002FBDA3 /* Iconity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Iconity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22BDD9671AE784EC002FBDA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22BDD9681AE784EC002FBDA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -124,7 +133,10 @@
 			isa = PBXGroup;
 			children = (
 				22BDD9981AE7D172002FBDA3 /* icones-05-2_1024.png */,
+				20F699E61AE7F536003A6F0F /* ICONES-0g7.png */,
+				20F699E41AE7F447003A6F0F /* ICONES-05d-2.png */,
 				20F699D71AE7E14F003A6F0F /* ICONES-08.png */,
+				20F699E21AE7F358003A6F0F /* ICONES-0g7.jpg */,
 				20F699DD1AE7E4A4003A6F0F /* ICONES-07.png */,
 				20F699D91AE7E14F003A6F0F /* ICONES-10.png */,
 				22BDD96A1AE784EC002FBDA3 /* AppDelegate.h */,
@@ -135,6 +147,8 @@
 				22BDD9701AE784EC002FBDA3 /* Main.storyboard */,
 				20F462481AE7CA2700D41D35 /* RecuperationViewController.m */,
 				20F4624A1AE7CA3600D41D35 /* RecuperationViewController.h */,
+				20F699E81AE7FFE1003A6F0F /* SearchViewController.h */,
+				20F699E91AE7FFE1003A6F0F /* SearchViewController.m */,
 				22BDD9731AE784EC002FBDA3 /* Images.xcassets */,
 				22BDD9751AE784EC002FBDA3 /* LaunchScreen.xib */,
 				22BDD9661AE784EC002FBDA3 /* Supporting Files */,
@@ -266,8 +280,11 @@
 				20F462441AE7A65100D41D35 /* NewsCycle-Regular.ttf in Resources */,
 				20F462371AE786EF00D41D35 /* P1-ee01.jpg in Resources */,
 				20F699DC1AE7E14F003A6F0F /* ICONES-10.png in Resources */,
+				20F699E51AE7F447003A6F0F /* ICONES-05d-2.png in Resources */,
+				20F699E31AE7F358003A6F0F /* ICONES-0g7.jpg in Resources */,
 				22BDD99B1AE7D628002FBDA3 /* Inscription.plist in Resources */,
 				20F462421AE7A63F00D41D35 /* NewsCycle-Bold.ttf in Resources */,
+				20F699E71AE7F536003A6F0F /* ICONES-0g7.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +309,7 @@
 				20F462461AE7C44500D41D35 /* ConnexionViewController.m in Sources */,
 				22BDD96C1AE784EC002FBDA3 /* AppDelegate.m in Sources */,
 				22BDD9691AE784EC002FBDA3 /* main.m in Sources */,
+				20F699EA1AE7FFE1003A6F0F /* SearchViewController.m in Sources */,
 				22BDD9931AE7968B002FBDA3 /* InscriptionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
