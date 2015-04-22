@@ -326,6 +326,9 @@
                                     <color key="titleColor" red="0.90588235289999997" green="0.37647058820000001" blue="0.3411764706" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="0.90588235289999997" green="0.37647058820000001" blue="0.3411764706" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="NextForm:" destination="B3f-B4-Llh" eventType="touchUpInside" id="HA8-fL-Rex"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icones-05-2_1024.png" id="eQi-Ig-rnY">
                                 <rect key="frame" x="27" y="61" width="66" height="71"/>
