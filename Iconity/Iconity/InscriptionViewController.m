@@ -42,14 +42,20 @@
 }
 
 
-/*
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    NSLog(@"prepareForSegue: %@", segue.identifier);
+  
+    if ([segue.identifier isEqualToString:@"NextPartInscription"]) {
+        InscriptionProfilViewController *vc = [segue destinationViewController];
+        [vc setData:self.data];
+    //    [segue.destinationViewController setData:self.data];
+    }
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
 }
-*/
+
 
 @end

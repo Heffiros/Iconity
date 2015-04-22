@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "PlistModel.h"
-
+#import "InscriptionProfilViewController.h"
 @interface InscriptionViewController : UIViewController {
     NSDictionary *data;
 }
