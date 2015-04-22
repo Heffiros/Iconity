@@ -21,6 +21,8 @@
     [self.sinscrire.layer setBorderColor:[[UIColor whiteColor] CGColor]];
     [self.seconnecter.layer setBorderWidth:2.0];
     [self.seconnecter.layer setBorderColor:[[UIColor whiteColor] CGColor]];
+    [[UITabBar appearance] setTintColor:[UIColor whiteColor]];
+
     }
 
 - (void)didReceiveMemoryWarning {
