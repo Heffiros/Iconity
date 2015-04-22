@@ -17,6 +17,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *password;
 @property (strong, nonatomic) IBOutlet UIButton *suivant;
 
+- (IBAction)NextForm:(id)sender;
 
-- (void)affBorderColor;
+
 @end

@@ -25,6 +25,7 @@
 		22BDD9831AE784ED002FBDA3 /* IconityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BDD9821AE784ED002FBDA3 /* IconityTests.m */; };
 		22BDD9931AE7968B002FBDA3 /* InscriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BDD9921AE7968B002FBDA3 /* InscriptionViewController.m */; };
 		22BDD9991AE7D172002FBDA3 /* icones-05-2_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 22BDD9981AE7D172002FBDA3 /* icones-05-2_1024.png */; };
+		22BDD99B1AE7D628002FBDA3 /* Inscription.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22BDD99A1AE7D628002FBDA3 /* Inscription.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		22BDD9911AE7968B002FBDA3 /* InscriptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InscriptionViewController.h; sourceTree = "<group>"; };
 		22BDD9921AE7968B002FBDA3 /* InscriptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InscriptionViewController.m; sourceTree = "<group>"; };
 		22BDD9981AE7D172002FBDA3 /* icones-05-2_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icones-05-2_1024.png"; sourceTree = "<group>"; };
+		22BDD99A1AE7D628002FBDA3 /* Inscription.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Inscription.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 				22BDD9661AE784EC002FBDA3 /* Supporting Files */,
 				22BDD9911AE7968B002FBDA3 /* InscriptionViewController.h */,
 				22BDD9921AE7968B002FBDA3 /* InscriptionViewController.m */,
+				22BDD99A1AE7D628002FBDA3 /* Inscription.plist */,
 				20F462451AE7C44500D41D35 /* ConnexionViewController.m */,
 				20F462471AE7C46C00D41D35 /* ConnexionViewController.h */,
 			);
@@ -256,6 +259,7 @@
 				20F462441AE7A65100D41D35 /* NewsCycle-Regular.ttf in Resources */,
 				20F462371AE786EF00D41D35 /* P1-ee01.jpg in Resources */,
 				20F4624E1AE7D04100D41D35 /* ICONES-10.jpg in Resources */,
+				22BDD99B1AE7D628002FBDA3 /* Inscription.plist in Resources */,
 				20F462421AE7A63F00D41D35 /* NewsCycle-Bold.ttf in Resources */,
 				20F462501AE7D04100D41D35 /* ICONES-09.jpg in Resources */,
 			);
