@@ -13,6 +13,7 @@
 @property (strong, nonatomic) IBOutlet UIButton *seconnecter;
 @property (strong, nonatomic) IBOutlet UIButton *FacebookConnect;
 @property (strong, nonatomic) IBOutlet UIButton *Connect;
+@property (strong, nonatomic) IBOutlet UIButton *Recuperer;
 
 
 @end

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		20F462371AE786EF00D41D35 /* P1-ee01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20F462361AE786EF00D41D35 /* P1-ee01.jpg */; };
+		20F462421AE7A63F00D41D35 /* NewsCycle-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20F462411AE7A63F00D41D35 /* NewsCycle-Bold.ttf */; };
+		20F462441AE7A65100D41D35 /* NewsCycle-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20F462431AE7A65100D41D35 /* NewsCycle-Regular.ttf */; };
 		22BDD9691AE784EC002FBDA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BDD9681AE784EC002FBDA3 /* main.m */; };
 		22BDD96C1AE784EC002FBDA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BDD96B1AE784EC002FBDA3 /* AppDelegate.m */; };
 		22BDD96F1AE784EC002FBDA3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BDD96E1AE784EC002FBDA3 /* ViewController.m */; };
@@ -30,6 +32,8 @@
 
 /* Begin PBXFileReference section */
 		20F462361AE786EF00D41D35 /* P1-ee01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "P1-ee01.jpg"; sourceTree = "<group>"; };
+		20F462411AE7A63F00D41D35 /* NewsCycle-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NewsCycle-Bold.ttf"; sourceTree = "<group>"; };
+		20F462431AE7A65100D41D35 /* NewsCycle-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NewsCycle-Regular.ttf"; sourceTree = "<group>"; };
 		22BDD9631AE784EC002FBDA3 /* Iconity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Iconity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22BDD9671AE784EC002FBDA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22BDD9681AE784EC002FBDA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -65,9 +69,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20F462401AE7A61200D41D35 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				20F462411AE7A63F00D41D35 /* NewsCycle-Bold.ttf */,
+				20F462431AE7A65100D41D35 /* NewsCycle-Regular.ttf */,
+			);
+			name = Ressources;
+			path = Iconity;
+			sourceTree = "<group>";
+		};
 		22BDD95A1AE784EC002FBDA3 = {
 			isa = PBXGroup;
 			children = (
+				20F462401AE7A61200D41D35 /* Ressources */,
 				22BDD9651AE784EC002FBDA3 /* Iconity */,
 				22BDD97F1AE784ED002FBDA3 /* IconityTests */,
 				22BDD9641AE784EC002FBDA3 /* Products */,
@@ -210,7 +225,9 @@
 				22BDD9721AE784EC002FBDA3 /* Main.storyboard in Resources */,
 				22BDD9771AE784EC002FBDA3 /* LaunchScreen.xib in Resources */,
 				22BDD9741AE784EC002FBDA3 /* Images.xcassets in Resources */,
+				20F462441AE7A65100D41D35 /* NewsCycle-Regular.ttf in Resources */,
 				20F462371AE786EF00D41D35 /* P1-ee01.jpg in Resources */,
+				20F462421AE7A63F00D41D35 /* NewsCycle-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
