@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2050A4271AE77FEE00167CCD /* iconity_ROSE.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2050A4261AE77FEE00167CCD /* iconity_ROSE.jpg */; };
+		2050A4291AE7807D00167CCD /* P1-01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2050A4281AE7807D00167CCD /* P1-01.jpg */; };
 		22BDD9351AE6B690002FBDA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BDD9341AE6B690002FBDA3 /* main.m */; };
 		22BDD9381AE6B690002FBDA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BDD9371AE6B690002FBDA3 /* AppDelegate.m */; };
 		22BDD93B1AE6B690002FBDA3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BDD93A1AE6B690002FBDA3 /* ViewController.m */; };
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2050A4261AE77FEE00167CCD /* iconity_ROSE.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = iconity_ROSE.jpg; path = ../../../../../../Downloads/iconity_ROSE.jpg; sourceTree = "<group>"; };
+		2050A4281AE7807D00167CCD /* P1-01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "P1-01.jpg"; path = "../../../../../../Downloads/P1-01.jpg"; sourceTree = "<group>"; };
 		22BDD92F1AE6B690002FBDA3 /* Iconity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Iconity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22BDD9331AE6B690002FBDA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22BDD9341AE6B690002FBDA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -82,12 +86,14 @@
 			isa = PBXGroup;
 			children = (
 				22BDD9361AE6B690002FBDA3 /* AppDelegate.h */,
+				2050A4281AE7807D00167CCD /* P1-01.jpg */,
 				22BDD9371AE6B690002FBDA3 /* AppDelegate.m */,
 				22BDD9391AE6B690002FBDA3 /* ViewController.h */,
 				22BDD93A1AE6B690002FBDA3 /* ViewController.m */,
 				22BDD93C1AE6B690002FBDA3 /* Main.storyboard */,
 				22BDD93F1AE6B690002FBDA3 /* Images.xcassets */,
 				22BDD9411AE6B690002FBDA3 /* LaunchScreen.xib */,
+				2050A4261AE77FEE00167CCD /* iconity_ROSE.jpg */,
 				22BDD9321AE6B690002FBDA3 /* Supporting Files */,
 			);
 			path = Iconity;
@@ -199,8 +205,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2050A4291AE7807D00167CCD /* P1-01.jpg in Resources */,
 				22BDD93E1AE6B690002FBDA3 /* Main.storyboard in Resources */,
 				22BDD9431AE6B690002FBDA3 /* LaunchScreen.xib in Resources */,
+				2050A4271AE77FEE00167CCD /* iconity_ROSE.jpg in Resources */,
 				22BDD9401AE6B690002FBDA3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +420,7 @@
 				22BDD9541AE6B690002FBDA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22BDD9551AE6B690002FBDA3 /* Build configuration list for PBXNativeTarget "IconityTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +429,7 @@
 				22BDD9571AE6B690002FBDA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
