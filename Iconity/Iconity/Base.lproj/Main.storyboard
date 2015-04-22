@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -189,6 +189,9 @@
                                     <color key="titleColor" red="0.90588235289999997" green="0.37647058820000001" blue="0.3411764706" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Isg-eQ-GSc" kind="modal" id="hHM-yj-DRy"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mot de passe oublié ? " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="meu-3g-B3b">
                                 <rect key="frame" x="16" y="72" width="288" height="21"/>
@@ -216,15 +219,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tabBar contentMode="scaleToFill" id="7lj-ea-w1s">
+                            <tabBar contentMode="scaleToFill" itemPositioning="centered" id="7lj-ea-w1s">
                                 <rect key="frame" x="0.0" y="519" width="320" height="49"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <items>
-                                    <tabBarItem id="TQw-GC-irm"/>
-                                    <tabBarItem systemItem="topRated" id="E8r-xi-MZ7"/>
-                                    <tabBarItem title="" selectedImage="ICONES-08.jpg" id="nN3-rl-aWF"/>
+                                    <tabBarItem systemItem="search" id="TQw-GC-irm"/>
+                                    <tabBarItem systemItem="more" id="E8r-xi-MZ7"/>
+                                    <tabBarItem title="" systemItem="favorites" id="nN3-rl-aWF"/>
                                 </items>
+                                <color key="barTintColor" red="0.90588235289999997" green="0.37647058820000001" blue="0.3411764706" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="selectedImageTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </tabBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -347,7 +352,6 @@
     </scenes>
     <resources>
         <image name="ICONES-05-2.png" width="521" height="521"/>
-        <image name="ICONES-08.jpg" width="1042" height="1042"/>
         <image name="P1-ee01.jpg" width="595" height="1058"/>
         <image name="icones-05-2_1024.png" width="1024" height="1024"/>
     </resources>
