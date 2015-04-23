@@ -42,6 +42,7 @@
 		22BDD9991AE7D172002FBDA3 /* icones-05-2_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 22BDD9981AE7D172002FBDA3 /* icones-05-2_1024.png */; };
 		22BDD99B1AE7D628002FBDA3 /* Inscription.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22BDD99A1AE7D628002FBDA3 /* Inscription.plist */; };
 		22BDD99E1AE7D722002FBDA3 /* PlistModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BDD99D1AE7D722002FBDA3 /* PlistModel.m */; };
+		22BDD9A11AE7F144002FBDA3 /* InscriptionProfilViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BDD9A01AE7F144002FBDA3 /* InscriptionProfilViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +115,8 @@
 		22BDD99A1AE7D628002FBDA3 /* Inscription.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Inscription.plist; sourceTree = "<group>"; };
 		22BDD99C1AE7D722002FBDA3 /* PlistModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlistModel.h; sourceTree = "<group>"; };
 		22BDD99D1AE7D722002FBDA3 /* PlistModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlistModel.m; sourceTree = "<group>"; };
+		22BDD99F1AE7F144002FBDA3 /* InscriptionProfilViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InscriptionProfilViewController.h; sourceTree = "<group>"; };
+		22BDD9A01AE7F144002FBDA3 /* InscriptionProfilViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InscriptionProfilViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +225,8 @@
 				22BDD9661AE784EC002FBDA3 /* Supporting Files */,
 				22BDD9911AE7968B002FBDA3 /* InscriptionViewController.h */,
 				22BDD9921AE7968B002FBDA3 /* InscriptionViewController.m */,
+				22BDD99F1AE7F144002FBDA3 /* InscriptionProfilViewController.h */,
+				22BDD9A01AE7F144002FBDA3 /* InscriptionProfilViewController.m */,
 				22BDD99A1AE7D628002FBDA3 /* Inscription.plist */,
 				22BDD99C1AE7D722002FBDA3 /* PlistModel.h */,
 				22BDD99D1AE7D722002FBDA3 /* PlistModel.m */,
@@ -375,12 +380,16 @@
 				22BDD96F1AE784EC002FBDA3 /* ViewController.m in Sources */,
 				20307B2F1AE8F2F400092857 /* SBJsonStreamParserState.m in Sources */,
 				20F462491AE7CA2700D41D35 /* RecuperationViewController.m in Sources */,
+<<<<<<< HEAD
 				20307B351AE8F2F400092857 /* SBJsonWriter.m in Sources */,
 				20307B2C1AE8F2F400092857 /* SBJsonStreamParser.m in Sources */,
 				20307B301AE8F2F400092857 /* SBJsonStreamWriter.m in Sources */,
 				20307B321AE8F2F400092857 /* SBJsonStreamWriterState.m in Sources */,
 				20307B2B1AE8F2F400092857 /* SBJsonParser.m in Sources */,
 				20307B331AE8F2F400092857 /* SBJsonTokeniser.m in Sources */,
+=======
+				22BDD9A11AE7F144002FBDA3 /* InscriptionProfilViewController.m in Sources */,
+>>>>>>> e8eaad5fc566e47049b03b13a3f6419986bf6e79
 				20F462461AE7C44500D41D35 /* ConnexionViewController.m in Sources */,
 				22BDD96C1AE784EC002FBDA3 /* AppDelegate.m in Sources */,
 				22BDD9691AE784EC002FBDA3 /* main.m in Sources */,
