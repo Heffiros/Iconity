@@ -55,11 +55,25 @@
         
        
         
-        NSLog(@"%@", _data);
-        NSLog(@"%@", _dataProfil);
+        NSError *error;
+        NSData *dataJson = [NSJSONSerialization dataWithJSONObject:_data
+                                                           options:kNilOptions
+                                                             error:&error];
         
+        NSData *profilJson = [NSJSONSerialization dataWithJSONObject:_dataProfil
+                                                           options:kNilOptions
+                                                             error:&error];
         
+        NSString *urlString = [NSString stringWithFormat: @"46.105.123.11/iconity/new_users.php?data=%@&profil=%@", dataJson, profilJson];
+        NSURL *url = [NSURL URLWithString:urlString];
+        NSLog(@"%@", urlString);
         
+        NSMutableURLRequest *req = [NSMutableURLRequest requestWithURL:url];
+        exit(0);
+        NSData *res = [NSURLConnection  sendSynchronousRequest:req returningResponse:nil error:nil];
+        NSDictionary *tab = [NSJSONSerialization JSONObjectWithData:res options:kNilOptions error:&error];
+    
+        NSLog(@"%@", tab);
     }
 }
 @end
