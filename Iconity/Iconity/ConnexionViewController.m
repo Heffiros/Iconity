@@ -7,6 +7,8 @@
 //
 
 #import "ConnexionViewController.h"
+#import "SBJson.h"
+
 
 @interface ConnexionViewController ()
 
@@ -21,6 +23,10 @@
     [self.FacebookConnect.layer setBorderColor:[[UIColor colorWithRed:231.0/255.0 green:96.0/255.0 blue:87.0/255.0 alpha:1.0] CGColor]];
     [self.Connect.layer setBorderWidth:2.0];
     [self.Connect.layer setBorderColor:[[UIColor colorWithRed:231.0/255.0 green:96.0/255.0 blue:87.0/255.0 alpha:1.0] CGColor]];
+//    NSString* str = formName.text;
+//    NSData* theData = [str dataUsingEncoding:NSUTF8StringEncoding];
+//    NSString *urlString = @"http://10.104.31.148:8888/connexion.php";
+    
 
 }
 
@@ -28,5 +34,16 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+//- (IBAction)getDown:(id)sender { //perform get request
+//    ServiceConnector *serviceConnector = [[ServiceConnector alloc] init];
+//    serviceConnector.delegate = self;
+//    [serviceConnector getTest];
+//}
+//- (IBAction)postDown:(id)sender { //perform post request
+//    ServiceConnector *serviceConnector = [[ServiceConnector alloc] init];
+//    serviceConnector.delegate = self;
+//    [serviceConnector postTest];
+//}
 
 @end

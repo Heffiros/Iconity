@@ -9,9 +9,14 @@
 #import <UIKit/UIKit.h>
 
 @interface SearchViewController : UIViewController
+
 @property (strong, nonatomic) IBOutlet UIButton *SearchType;
 @property (strong, nonatomic) IBOutlet UIButton *SearchTaille;
 @property (strong, nonatomic) IBOutlet UIButton *SearchColor;
 @property (strong, nonatomic) IBOutlet UIButton *SearchDate;
+@property (strong, nonatomic) IBOutlet UILabel *test;
+@property (strong, nonatomic) IBOutlet UIPickerView *picker;
 
 @end
+NSArray *dataArray;
+
