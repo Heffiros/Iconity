@@ -8,25 +8,33 @@
 
 #import "SearchViewController.h"
 
+
 @interface SearchViewController ()
+
 
 @end
 
-@implementation SearchViewController
+@implementation SearchViewController 
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self.SearchTaille.layer setBorderWidth:1.0];
+    [self.SearchTaille.layer setBorderWidth:2.0];
     [self.SearchTaille.layer setBorderColor:[[UIColor blackColor] CGColor]];
-    [self.SearchColor.layer setBorderWidth:1.0];
+    [self.SearchColor.layer setBorderWidth:2.0];
     [self.SearchColor.layer setBorderColor:[[UIColor blackColor] CGColor]];
-    [self.SearchType.layer setBorderWidth:1.0];
+    [self.SearchType.layer setBorderWidth:2.0];
     [self.SearchType.layer setBorderColor:[[UIColor blackColor] CGColor]];
-    [self.SearchDate.layer setBorderWidth:1.0];
+    [self.SearchDate.layer setBorderWidth:2.0];
     [self.SearchDate.layer setBorderColor:[[UIColor blackColor] CGColor]];
-    [[UITabBar appearance] setTintColor:[UIColor blackColor]];
-
+//    dataArray = [[NSArray alloc]initWithObjects:@"test1",@"test2",@"test3" ,nil];
+//    _picker.delegate = self;
+//    UIPickerView * picker = [UIPickerView new];
+//    picker.delegate = self;
+//    picker.dataSource = self;
+//    picker.showsSelectionIndicator = YES;
+//    [self.view addSubview:picker];
+    
     
 }
 
@@ -43,6 +51,31 @@
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
 }
-*/
+//*/
+//- (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView {
+//    return 1;
+//}
+//
+//- (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component {
+//    return 3;
+//}
+//
+//- (NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component {
+//    NSString * title = nil;
+//    switch(row) {
+//        case 0:
+//            title = @"a";
+//            break;
+//        case 1:
+//            title = @"b";
+//            break;
+//        case 2:
+//            title = @"c";
+//            break;
+//    }
+//    return title;
+//}
+
+
 
 @end

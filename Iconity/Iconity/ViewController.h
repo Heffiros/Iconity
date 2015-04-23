@@ -8,10 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface ViewController : UIViewController
 
 @property (strong, nonatomic) IBOutlet UIButton *sinscrire;
 @property (strong, nonatomic) IBOutlet UIButton *seconnecter;
+
 
 
 @end
