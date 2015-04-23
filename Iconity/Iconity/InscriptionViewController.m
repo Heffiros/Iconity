@@ -37,6 +37,7 @@
                           @"nom" : self.nom.text,
                           @"mail" : self.mail.text,
                           @"mdp" : self.password.text,
+                        
     };
 
 }

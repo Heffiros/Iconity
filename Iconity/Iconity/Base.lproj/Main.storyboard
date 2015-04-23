@@ -477,16 +477,19 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="AlF-y2-xP6">
-                                <rect key="frame" x="8" y="396" width="51" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                            </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="jSB-9g-tJG">
                                 <rect key="frame" x="8" y="449" width="51" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="J'accepte les conditions d'utilisations" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="D4k-6I-prB">
                                 <rect key="frame" x="42" y="401" width="245" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="J'accepte de recevoirs les newsletters" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DTc-U0-3qM">
+                                <rect key="frame" x="42" y="459" width="255" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -502,21 +505,24 @@
                                 </state>
                                 <connections>
                                     <action selector="NextForm:" destination="B3f-B4-Llh" eventType="touchUpInside" id="3mO-3d-jTX"/>
-                                    <action selector="Validate:" destination="rQm-jh-7Ow" eventType="touchUpInside" id="aEJ-KM-vTt"/>
+                                    <action selector="Validate:" destination="rQm-jh-7Ow" eventType="touchUpInside" id="6UW-Yd-BEu"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="J'accepte de recevoirs les newsletters" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DTc-U0-3qM">
-                                <rect key="frame" x="42" y="459" width="255" height="21"/>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="AlF-y2-xP6">
+                                <rect key="frame" x="8" y="396" width="51" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </switch>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="Validate" destination="tZB-Bi-1A1" id="cK9-Do-1fq"/>
+                        <outlet property="adresse" destination="DXq-9e-yuA" id="l3r-x2-hgj"/>
+                        <outlet property="postal" destination="Vzg-Bh-bIu" id="QyU-il-5j4"/>
+                        <outlet property="switch1" destination="AlF-y2-xP6" id="9il-y4-i0g"/>
+                        <outlet property="switch2" destination="jSB-9g-tJG" id="Eo5-rh-qoV"/>
+                        <outlet property="telephone" destination="naU-BC-Rkc" id="asx-D1-iO5"/>
+                        <outlet property="ville" destination="Up6-xl-eiB" id="rsc-Nr-TPi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BSn-mt-oeY" userLabel="First Responder" sceneMemberID="firstResponder"/>

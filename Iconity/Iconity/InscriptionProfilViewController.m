@@ -44,4 +44,22 @@
 }
 */
 
+- (IBAction)Validate:(id)sender {
+    if (self.switch1.isOn) {
+        _dataProfil = @{
+                        @"telephone": _telephone.text,
+                        @"adresse": _adresse.text,
+                        @"postal": _postal.text,
+                        @"ville": _ville.text,
+                        };
+        
+       
+        
+        NSLog(@"%@", _data);
+        NSLog(@"%@", _dataProfil);
+        
+        
+        
+    }
+}
 @end
