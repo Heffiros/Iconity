@@ -7,6 +7,9 @@
 //
 
 #import "ConnexionViewController.h"
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import <FBSDKLoginKit/FBSDKLoginKit.h>
+
 
 @interface ConnexionViewController ()
 @property (strong, nonatomic) IBOutlet UITextField *adresseEmail;
@@ -23,6 +26,8 @@
     [self.FacebookConnect.layer setBorderColor:[[UIColor colorWithRed:231.0/255.0 green:96.0/255.0 blue:87.0/255.0 alpha:1.0] CGColor]];
     [self.Connect.layer setBorderWidth:2.0];
     [self.Connect.layer setBorderColor:[[UIColor colorWithRed:231.0/255.0 green:96.0/255.0 blue:87.0/255.0 alpha:1.0] CGColor]];
+    FBSDKLoginButton *loginButton = [[FBSDKLoginButton alloc] init];
+//    [self.view addSubview:loginButton];
 
 }
 
