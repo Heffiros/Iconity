@@ -7,7 +7,13 @@
 //
 
 #import "ConnexionViewController.h"
+<<<<<<< HEAD
 #import "SearchViewController.h"
+=======
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import <FBSDKLoginKit/FBSDKLoginKit.h>
+
+>>>>>>> c18449503169c710a38e851b9b8f8ae7939662d0
 
 @interface ConnexionViewController ()
 @property (strong, nonatomic) IBOutlet UITextField *adresseEmail;
@@ -24,6 +30,11 @@
     [self.FacebookConnect.layer setBorderColor:[[UIColor colorWithRed:231.0/255.0 green:96.0/255.0 blue:87.0/255.0 alpha:1.0] CGColor]];
     [self.Connect.layer setBorderWidth:2.0];
     [self.Connect.layer setBorderColor:[[UIColor colorWithRed:231.0/255.0 green:96.0/255.0 blue:87.0/255.0 alpha:1.0] CGColor]];
+<<<<<<< HEAD
+=======
+    FBSDKLoginButton *loginButton = [[FBSDKLoginButton alloc] init];
+//    [self.view addSubview:loginButton];
+>>>>>>> c18449503169c710a38e851b9b8f8ae7939662d0
 
 }
 
@@ -92,6 +103,7 @@
 //}
 
 - (IBAction)login:(id)sender {
+<<<<<<< HEAD
         //NSInteger success = 0;
         NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"http://46.105.123.11/iconity/connexion.php?User=%@&Password=%@",_adresseEmail.text, _password.text]];
         
@@ -119,6 +131,53 @@
             NSLog(@"Connexion KO");
         }
 }
+=======
+        NSInteger success = 0;
+        NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"http://10.104.31.148:8888/connexion.php?User=%@&Password=%@",_adresseEmail.text, _password.text]];
+        
+        NSString *post =[[NSString alloc] initWithFormat:@"%@", url];
+        
+        NSLog(@"PostData: %@",post);
+        
+        NSData *postData = [post dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];
+        
+        NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
+        
+        // Set request type
+        [request setHTTPMethod:@"POST"];
+        [request addValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"Content-Type"];
+        [request setHTTPBody:postData];
+        
+        NSError *error = [[NSError alloc] init];
+        
+        NSHTTPURLResponse *response = nil;
+        
+        // Send the request
+        NSData *urlData=[NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&error];
+        
+        NSLog(@"Response: %@", request);
+        
+        NSLog(@"Response code: %ld", (long)[response statusCode]);
+        
+        if ([response statusCode] >= 200 && [response statusCode] < 300){
+            NSLog(@"Success: %ld",(long)success);
+            NSLog(@"Success: %@", urlData);
+            UIAlertView *alertsuccess = [[UIAlertView alloc] initWithTitle:@"Vous êtes maintenant connecté" message:nil
+                                                                  delegate:self cancelButtonTitle:@"OK"
+                                                         otherButtonTitles: nil];
+            [alertsuccess show];
+
+        }
+    
+        else{
+            NSLog(@"login failed: %ld", (long)[response statusCode]);
+            UIAlertView *alertsuccess = [[UIAlertView alloc] initWithTitle:@"Adresse mail ou mot de passe incorrect." message:@"Veuillez vérifier vos identifiants."
+                                                                  delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+            [alertsuccess show];
+
+        }
+    }
+>>>>>>> c18449503169c710a38e851b9b8f8ae7939662d0
 
 
 

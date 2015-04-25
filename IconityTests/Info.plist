@@ -2,6 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+<<<<<<< HEAD
+=======
+	<key>FacebookAppID</key>
+	<string>811862935549060</string>
+	<key>FacebookDisplayName</key>
+	<string>Iconity</string>
+>>>>>>> c18449503169c710a38e851b9b8f8ae7939662d0
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>

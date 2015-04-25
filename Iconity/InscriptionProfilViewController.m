@@ -57,7 +57,10 @@
         NSString *urlString = [NSString stringWithFormat: @"http://46.105.123.11/iconity/new_users.php?prenom=%@&nom=%@&email=%@&password=%@&telephone=%@&adresse=%@&postal=%@&ville=%@", [_data objectForKey:@"prenom"] , [_data objectForKey:@"nom"], [_data objectForKey:@"mail"], [_data objectForKey:@"mdp"], [_dataProfil objectForKey:@"telephone"], [_dataProfil objectForKey:@"adresse"], [_dataProfil objectForKey:@"postal"], [_dataProfil objectForKey:@"ville"]];
         NSURL *url = [NSURL URLWithString:urlString];
         NSLog(@"%@", urlString);
+<<<<<<< HEAD
         
+=======
+>>>>>>> c18449503169c710a38e851b9b8f8ae7939662d0
         NSURLRequest *req = [NSURLRequest requestWithURL:url];
         NSData *data = [NSURLConnection sendSynchronousRequest:req returningResponse:nil error:nil];
         NSString *rep = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];

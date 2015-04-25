@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<<<<<<< HEAD
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+=======
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+>>>>>>> c18449503169c710a38e851b9b8f8ae7939662d0
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -58,6 +64,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+<<<<<<< HEAD
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="rxC-Fx-LOz">
                                 <rect key="frame" x="16" y="107" width="288" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
@@ -67,6 +74,8 @@
                                     <color key="titleShadowColor" red="0.90588235289999997" green="0.37647058820000001" blue="0.3411764706" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
+=======
+>>>>>>> c18449503169c710a38e851b9b8f8ae7939662d0
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="  Adresse email" minimumFontSize="17" id="PZi-iC-U7E">
                                 <rect key="frame" x="16" y="211" width="288" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
@@ -88,7 +97,10 @@
                                 </state>
                                 <connections>
                                     <action selector="login:" destination="WdT-70-iYy" eventType="touchUpInside" id="mNc-lJ-J0h"/>
+<<<<<<< HEAD
                                     <segue destination="bCa-mB-80G" kind="modal" identifier="login" id="OuF-92-q7l"/>
+=======
+>>>>>>> c18449503169c710a38e851b9b8f8ae7939662d0
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vz3-QO-BqA">
@@ -126,10 +138,13 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+<<<<<<< HEAD
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icones-05-2_1024.png" id="kNw-l7-vCG">
                                 <rect key="frame" x="28" y="94" width="70" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             </imageView>
+=======
+>>>>>>> c18449503169c710a38e851b9b8f8ae7939662d0
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ou" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fB6-Q1-pQI">
                                 <rect key="frame" x="16" y="177" width="288" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
@@ -143,6 +158,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+<<<<<<< HEAD
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="MGD-V1-6Y2">
                                 <rect key="frame" x="273" y="530" width="17" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
@@ -156,12 +172,29 @@
                                     <segue destination="WdT-70-iYy" kind="modal" identifier="check" id="bUu-He-b1M"/>
                                 </connections>
                             </button>
+=======
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="81F5E21E35407D884A6CD4A731AEBFB6AF209E1B" id="6Yo-1h-j0Z">
+                                <rect key="frame" x="40" y="68" width="240" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <view contentMode="scaleToFill" id="YxX-KT-kRf" customClass="FBSDKLoginButton">
+                                <rect key="frame" x="54" y="129" width="213" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+>>>>>>> c18449503169c710a38e851b9b8f8ae7939662d0
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="Connect" destination="nBJ-vY-V06" id="Eeo-uh-ZiI"/>
+<<<<<<< HEAD
                         <outlet property="FacebookConnect" destination="rxC-Fx-LOz" id="QHV-1K-dOy"/>
+=======
+>>>>>>> c18449503169c710a38e851b9b8f8ae7939662d0
                         <outlet property="adresseEmail" destination="PZi-iC-U7E" id="gha-s5-zLz"/>
                         <outlet property="password" destination="k5f-W2-m0E" id="ZxR-DP-i1a"/>
                     </connections>
@@ -234,7 +267,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dtj-sX-eFn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+<<<<<<< HEAD
             <point key="canvasLocation" x="965" y="1117"/>
+=======
+            <point key="canvasLocation" x="915" y="759"/>
+>>>>>>> c18449503169c710a38e851b9b8f8ae7939662d0
         </scene>
         <!--Search View Controller-->
         <scene sceneID="IAr-jp-Bpe">
@@ -317,7 +354,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+<<<<<<< HEAD
                     <navigationItem key="navigationItem" id="mdx-yx-L8U"/>
+=======
+>>>>>>> c18449503169c710a38e851b9b8f8ae7939662d0
                     <connections>
                         <outlet property="SearchColor" destination="kNv-dq-2id" id="62d-Aj-vPx"/>
                         <outlet property="SearchDate" destination="wIE-dO-ZYY" id="8oe-m4-0fG"/>
@@ -569,8 +609,11 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+<<<<<<< HEAD
     <inferredMetricsTieBreakers>
         <segue reference="2Yd-HK-ZIU"/>
         <segue reference="OuF-92-q7l"/>
     </inferredMetricsTieBreakers>
+=======
+>>>>>>> c18449503169c710a38e851b9b8f8ae7939662d0
 </document>

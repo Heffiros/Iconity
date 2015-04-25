@@ -6,8 +6,17 @@
 //  Copyright (c) 2015 Alexandre LEVY. All rights reserved.
 //
 
+<<<<<<< HEAD
 #import "AppDelegate.h"
 
+=======
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import <FBSDKShareKit/FBSDKShareKit.h>
+#import <FBSDKLoginKit/FBSDKLoginKit.h>
+#import "AppDelegate.h"
+
+
+>>>>>>> c18449503169c710a38e851b9b8f8ae7939662d0
 @interface AppDelegate ()
 
 @end
@@ -17,6 +26,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+<<<<<<< HEAD
+=======
+    
+    return [[FBSDKApplicationDelegate sharedInstance] application:application
+                                    didFinishLaunchingWithOptions:launchOptions];
+//    [[FBSDKLoginButton]];
+
+>>>>>>> c18449503169c710a38e851b9b8f8ae7939662d0
     return YES;
 }
 
@@ -36,10 +53,26 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+<<<<<<< HEAD
+=======
+    [FBSDKAppEvents activateApp];
+
+>>>>>>> c18449503169c710a38e851b9b8f8ae7939662d0
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+<<<<<<< HEAD
+=======
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    return [[FBSDKApplicationDelegate sharedInstance] application:application
+                                                          openURL:url
+                                                sourceApplication:sourceApplication
+                                                       annotation:annotation];
+}
+
+>>>>>>> c18449503169c710a38e851b9b8f8ae7939662d0
 @end
