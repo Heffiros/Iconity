@@ -10,14 +10,14 @@
 	<string>Iconity</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>C1C741039FAAB0AEF557F92B9CD336677A7AEA45</key>
+		<key>55D4D0CCA92A27BAC74F328AF85744D50DD61B04</key>
 		<string>https://github.com/Heffiros/Iconity.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Iconity.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>C1C741039FAAB0AEF557F92B9CD336677A7AEA45</key>
+		<key>55D4D0CCA92A27BAC74F328AF85744D50DD61B04</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>C1C741039FAAB0AEF557F92B9CD336677A7AEA45</string>
+	<string>55D4D0CCA92A27BAC74F328AF85744D50DD61B04</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>C1C741039FAAB0AEF557F92B9CD336677A7AEA45</string>
+			<string>55D4D0CCA92A27BAC74F328AF85744D50DD61B04</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Iconity</string>
 		</dict>

@@ -131,7 +131,11 @@
             [self performSegueWithIdentifier:@"login" sender:self];
             UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Vous êtes maintenant connecté" message:nil delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
             [alert show];
-        
+            NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+            
+            [userDefaults setValue:_adresseEmail.text forKey:@"connexion"];
+            
+            [userDefaults synchronize];
             NSLog(@"Connexion OK");
         } else {
             UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Connexion Impossible" message:@"Veuillez vérifier vos identifiants." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
